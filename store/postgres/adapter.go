@@ -172,6 +172,9 @@ func (a *PostgresEventStorageAdapter) Scan(
 		defer rows.Close()
 
 		for rows.Next() {
+			if ctx.Err() != nil {
+				return
+			}
 			var e types.StoredEvent
 			if scanErr := rows.Scan(&e.ID, &e.Name, &e.Stream, &e.Category, &e.Position,
 				&e.SequenceNumber, &e.Payload, &e.ObservedAt, &e.OccurredAt); scanErr != nil {
