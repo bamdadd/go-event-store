@@ -1,0 +1,39 @@
+version: '3'
+
+tasks:
+  test:unit:
+    desc: Run all unit tests with race detector
+    cmds:
+      - go test -race ./...
+
+  test:integration:
+    desc: Run integration tests (requires PostgreSQL)
+    cmds:
+      - go test -race -tags=integration ./...
+
+  test:all:
+    desc: Run all tests
+    cmds:
+      - task: test:unit
+      - task: test:integration
+
+  lint:
+    desc: Run linters
+    cmds:
+      - golangci-lint run ./...
+
+  build:
+    desc: Build all packages
+    cmds:
+      - go build ./...
+
+  db:start:
+    desc: Start PostgreSQL for integration tests
+    cmds:
+      - docker-compose up -d postgres
+      - sleep 2
+
+  db:stop:
+    desc: Stop PostgreSQL
+    cmds:
+      - docker-compose down
