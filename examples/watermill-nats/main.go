@@ -29,7 +29,7 @@ import (
 	"github.com/bamdadd/go-event-store/types"
 )
 
-const topic = "events.inventory"
+const topic = "events-inventory"
 
 // InventoryState tracks stock levels, updated asynchronously.
 type InventoryState struct {
