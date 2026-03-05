@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/logicblocks/event-store/processing"
-	"github.com/logicblocks/event-store/processing/broker/singleton"
+	"github.com/bamdadd/go-event-store/processing"
+	"github.com/bamdadd/go-event-store/processing/broker/singleton"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

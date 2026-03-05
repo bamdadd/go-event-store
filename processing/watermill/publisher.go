@@ -6,7 +6,7 @@ import (
 	"github.com/ThreeDotsLabs/watermill"
 	"github.com/ThreeDotsLabs/watermill/message"
 
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/types"
 )
 
 type EventStorePublisher struct {

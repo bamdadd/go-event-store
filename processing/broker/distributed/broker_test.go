@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/logicblocks/event-store/processing"
-	"github.com/logicblocks/event-store/processing/broker/distributed"
-	lockmem "github.com/logicblocks/event-store/processing/locks/memory"
+	"github.com/bamdadd/go-event-store/processing"
+	"github.com/bamdadd/go-event-store/processing/broker/distributed"
+	lockmem "github.com/bamdadd/go-event-store/processing/locks/memory"
 	"github.com/stretchr/testify/assert"
 )
 

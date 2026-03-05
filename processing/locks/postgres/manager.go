@@ -6,8 +6,8 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/logicblocks/event-store/processing/locks"
-	"github.com/logicblocks/event-store/store"
+	"github.com/bamdadd/go-event-store/processing/locks"
+	"github.com/bamdadd/go-event-store/store"
 )
 
 type PostgresLockManager struct {

@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/logicblocks/event-store/processing"
-	"github.com/logicblocks/event-store/processing/locks"
+	"github.com/bamdadd/go-event-store/processing"
+	"github.com/bamdadd/go-event-store/processing/locks"
 )
 
 type DistributedEventBroker struct {

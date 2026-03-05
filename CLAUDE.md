@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-`github.com/logicblocks/event-store` is a Go library providing eventing
-infrastructure for event-sourced architectures. It is a migration of the Python
-`logicblocks.event.store` library.
+`github.com/bamdadd/go-event-store` is a Go library providing eventing
+infrastructure for event-sourced architectures. It is a migration of the
+Python `event.store` library.
 
 ## Architecture
 

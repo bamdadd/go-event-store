@@ -5,7 +5,7 @@ import (
 	"iter"
 	"log/slog"
 
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/types"
 )
 
 type EventCategory struct {

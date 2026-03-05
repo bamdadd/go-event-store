@@ -5,7 +5,7 @@ import (
 
 	"github.com/ThreeDotsLabs/watermill/message"
 
-	"github.com/logicblocks/event-store/processing"
+	"github.com/bamdadd/go-event-store/processing"
 )
 
 type WatermillConsumer struct {

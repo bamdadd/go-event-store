@@ -1,4 +1,4 @@
-module github.com/logicblocks/event-store
+module github.com/bamdadd/go-event-store
 
 go 1.24.0
 

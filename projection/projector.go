@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"iter"
 
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/types"
 )
 
 type MissingHandlerBehaviour int

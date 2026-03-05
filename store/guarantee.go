@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/types"
 )
 
 type SerialisationGuarantee interface {

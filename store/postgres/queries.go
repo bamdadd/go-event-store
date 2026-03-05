@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/logicblocks/event-store/store"
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/store"
+	"github.com/bamdadd/go-event-store/types"
 )
 
 func buildScanQuery(target types.Targetable, cfg store.ScanConfig) (string, []any) {

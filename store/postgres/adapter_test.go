@@ -9,10 +9,10 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/logicblocks/event-store/internal/testutil"
-	"github.com/logicblocks/event-store/store"
-	"github.com/logicblocks/event-store/store/postgres"
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/internal/testutil"
+	"github.com/bamdadd/go-event-store/store"
+	"github.com/bamdadd/go-event-store/store/postgres"
+	"github.com/bamdadd/go-event-store/types"
 )
 
 func newPostgresHarness(t *testing.T) testutil.AdapterTestHarness {

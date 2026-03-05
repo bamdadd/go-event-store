@@ -4,7 +4,7 @@ import (
 	"context"
 	"iter"
 
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/types"
 )
 
 type StreamPublishDefinition struct {

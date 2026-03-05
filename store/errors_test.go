@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/logicblocks/event-store/store"
+	"github.com/bamdadd/go-event-store/store"
 	"github.com/stretchr/testify/assert"
 )
 

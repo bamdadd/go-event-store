@@ -3,7 +3,7 @@ package store
 import (
 	"log/slog"
 
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/types"
 )
 
 type EventStore struct {

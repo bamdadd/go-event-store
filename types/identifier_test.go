@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/types"
 	"github.com/stretchr/testify/assert"
 )
 

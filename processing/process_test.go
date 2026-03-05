@@ -3,7 +3,7 @@ package processing_test
 import (
 	"testing"
 
-	"github.com/logicblocks/event-store/processing"
+	"github.com/bamdadd/go-event-store/processing"
 	"github.com/stretchr/testify/assert"
 )
 

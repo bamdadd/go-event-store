@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/logicblocks/event-store/processing"
+	"github.com/bamdadd/go-event-store/processing"
 )
 
 type SingletonEventBroker struct {

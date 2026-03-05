@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/logicblocks/event-store/projection"
+	"github.com/bamdadd/go-event-store/projection"
 )
 
 type InMemoryProjectionStorageAdapter struct {

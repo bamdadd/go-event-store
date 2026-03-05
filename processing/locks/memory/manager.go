@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/logicblocks/event-store/processing/locks"
+	"github.com/bamdadd/go-event-store/processing/locks"
 )
 
 type InMemoryLockManager struct {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/logicblocks/event-store/internal/clock"
+	"github.com/bamdadd/go-event-store/internal/clock"
 )
 
 type NewEvent struct {

@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/logicblocks/event-store/projection"
-	projmem "github.com/logicblocks/event-store/projection/memory"
+	"github.com/bamdadd/go-event-store/projection"
+	projmem "github.com/bamdadd/go-event-store/projection/memory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

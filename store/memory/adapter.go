@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"iter"
 
-	"github.com/logicblocks/event-store/store"
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/store"
+	"github.com/bamdadd/go-event-store/types"
 )
 
 type Option func(*InMemoryEventStorageAdapter)

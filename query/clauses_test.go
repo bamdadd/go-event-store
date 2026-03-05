@@ -3,7 +3,7 @@ package query_test
 import (
 	"testing"
 
-	"github.com/logicblocks/event-store/query"
+	"github.com/bamdadd/go-event-store/query"
 	"github.com/stretchr/testify/assert"
 )
 

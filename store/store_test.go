@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/logicblocks/event-store/internal/testutil"
-	"github.com/logicblocks/event-store/store"
-	"github.com/logicblocks/event-store/store/memory"
-	"github.com/logicblocks/event-store/types"
+	"github.com/bamdadd/go-event-store/internal/testutil"
+	"github.com/bamdadd/go-event-store/store"
+	"github.com/bamdadd/go-event-store/store/memory"
+	"github.com/bamdadd/go-event-store/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
