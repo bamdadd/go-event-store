@@ -37,24 +37,23 @@ Key packages under the module root:
 
 ### Setup
 ```bash
-mise install          # Install Go 1.23, task, golangci-lint
+mise install          # Install Go 1.23, golangci-lint
 mise trust            # Trust mise config (first time only)
 ```
 
 ### Build & Test
 ```bash
-task build            # Build all packages
-task test:unit        # Run unit tests with race detector
-task test:integration # Run integration tests (requires PostgreSQL)
-task test:all         # Run all tests
-task lint             # Run golangci-lint
+make build            # Build all packages
+make test-unit        # Run unit tests with race detector
+make test-integration # Run integration tests (requires PostgreSQL)
+make test-all         # Run all tests
+make lint             # Run golangci-lint
 ```
 
 ### Database (for integration tests)
 ```bash
-task db:start         # Start PostgreSQL via docker-compose
-task db:migrate       # Apply schema
-task db:stop          # Stop PostgreSQL
+make db-start         # Start PostgreSQL via docker-compose
+make db-stop          # Stop PostgreSQL
 ```
 
 ## Development Approach
@@ -69,8 +68,8 @@ task db:stop          # Stop PostgreSQL
 
 ## Testing
 
-- Unit tests: `task test:unit` or `go test -race ./...`
-- Integration tests: `task test:integration` or `go test -race -tags=integration ./...`
+- Unit tests: `make test-unit` or `go test -race ./...`
+- Integration tests: `make test-integration` or `go test -race -tags=integration ./...`
 - Use `//go:build integration` tag for tests requiring PostgreSQL
 - Use testify for assertions (`assert`, `require`)
 - Single assertion per test where practical

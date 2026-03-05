@@ -144,25 +144,24 @@ stream.Publish(ctx, events, store.Or(store.StreamIsEmpty(), store.PositionIs(&po
 ### Prerequisites
 
 ```bash
-mise install   # Installs Go, task, golangci-lint
+mise install   # Installs Go, golangci-lint
 ```
 
 ### Commands
 
 ```bash
-task build              # Build all packages
-task test:unit          # Run unit tests
-task test:integration   # Run integration tests (requires PostgreSQL)
-task test:all           # Run all tests
-task lint               # Run linter
+make build              # Build all packages
+make test-unit          # Run unit tests
+make test-integration   # Run integration tests (requires PostgreSQL)
+make test-all           # Run all tests
+make lint               # Run linter
 ```
 
 ### Database (integration tests)
 
 ```bash
-task db:start    # Start PostgreSQL via docker-compose
-task db:migrate  # Apply schema
-task db:stop     # Stop PostgreSQL
+make db-start   # Start PostgreSQL via docker-compose
+make db-stop    # Stop PostgreSQL
 ```
 
 ## License

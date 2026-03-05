@@ -7,7 +7,7 @@
 //   - Write condition failures (optimistic locking)
 //
 // Prerequisites:
-//   task db:start && task db:migrate
+//   make db-start
 package main
 
 import (
